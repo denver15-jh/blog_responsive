@@ -1,0 +1,73 @@
+/* MEDIAQUERIES */
+
+/* MOBILE */
+
+@media(max-width: 575px){
+    
+    /*HEADER-REDES*/
+
+    .header .header-icons-container{
+        justify-content: center;
+    }
+
+    .header .header-icons-container .icons-container{
+        margin-right: 0;
+    }
+
+    /*HEADER-NAV*/
+
+    .nav .nav-logo-container{
+        margin-left: 2rem;
+    }
+
+    .nav .nav-profile-links{
+        margin-right: 2rem;
+    }
+
+  
+}
+
+
+@media(max-width: 480px){
+    
+    /*INDEX COVER*/
+
+    .main .main-cover-title-button-container h1{
+        font-size: 2rem; 
+    }
+
+    /*SECCION CONTACT*/
+
+    .blog-main-contact-container .blog-general-contact-like-container .blog-contact-like-container{
+        flex-direction: column; 
+    }
+
+    .blog-main-contact-container .blog-general-contact-like-container .blog-contact-like-container .blog-contact-like-info-container{
+        margin-left: 0;
+    }
+
+    .blog-main-contact-container .blog-general-contact-like-container .blog-contact-like-container .blog-contact-like-info-container h3{
+        text-align: center;
+    }
+  
+}
+
+@media(max-width: 320px){
+
+    /*HEADER*/
+
+    .header{
+        height: auto;
+    }
+
+    /*HEADER-NAV*/
+
+    .nav{
+        background-color: var(--white-standard);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+}
